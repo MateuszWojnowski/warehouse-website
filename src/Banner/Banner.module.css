@@ -1,0 +1,21 @@
+.banner {
+    position: fixed;
+    width: 100vw;
+    height: 20vh;
+    z-index: 20;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    bottom: 5vh;
+    left: 5vh;
+    width: 40vh;
+    z-index: 20;
+}

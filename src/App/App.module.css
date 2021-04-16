@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.navitem:hover {
+    background: rgb(120,120,120);
+}
+
+.sidedrawer{
+    width: 100%;
+}
+
+.hiddenContent{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1300px) {
+    .hiddenContent {
+      font-size: 0.8rem;
+    }
+}
+
+.renderWindow {
+    display: flex;
+    overflow: auto;
+    overflow-y: hidden;
+
+    position: relative;
+    left: 15vw;
+    top: 25vh;
+
+    width: 59vw;
+    height: 77vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

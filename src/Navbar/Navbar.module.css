@@ -1,0 +1,17 @@
+.navbar {
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    top: 20vh;
+
+    z-index: 20;
+
+    display: flex;
+    justify-content: space-around;
+
+    background: rgb(80, 80, 80);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+

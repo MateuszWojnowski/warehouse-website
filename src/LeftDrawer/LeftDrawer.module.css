@@ -1,0 +1,22 @@
+.leftdrawer {
+    width: 15vw;
+    height: 75vh;
+    padding-top: 10vh;
+
+    position: fixed;
+    bottom: 0;
+
+    background: rgb(80,80,80);
+    color: lightgray;
+
+    z-index: 10;
+
+    font-size: 1.7rem;
+}
+
+@media (max-width: 1300px) {
+    .leftdrawer {
+      font-size: 1.2rem;
+    }
+}
+

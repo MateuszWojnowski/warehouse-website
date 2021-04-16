@@ -1,0 +1,18 @@
+.navitem {
+    width: 100%;
+    text-align: center;
+    line-height: 5vh;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+    font-weight: 300;
+}
+
+.navitem:hover {
+    background: rgb(130, 130, 130);
+}
+
+.navitem--active {
+    background: red;
+}

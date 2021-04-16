@@ -1,0 +1,43 @@
+.kartapracownika {
+    width: 17vw;
+    height: 24vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 2vw;
+    background: white;
+}
+
+img {
+    width: 100%;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 60%;
+    
+    background: rgb(216, 255, 251);
+}
+
+.kartapracownika>p{
+    margin: 0.7vw;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.omnie {
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 2vw;
+    line-height: 2vw;
+    background: rgb(80, 80, 80);
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    overflow: hidden;
+}
+
+.omnie:hover{
+    height: 10vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
