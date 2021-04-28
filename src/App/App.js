@@ -11,7 +11,7 @@ import Subea from '../Działy/Subea/Subea'
 import Inesis from '../Działy/Inesis/Inesis'
 import Quechua from '../Działy/Quechua/Quechua'
 import HS from '../Działy/HS/HS'
-import Geologic from '../Działy/Geologic/Geologic'
+import Newfeel from '../Działy/Newfeel/Newfeel'
 
 import Banner from '../Banner/Banner'
 import RightDrawer from '../RightDrawer/RightDrawer'
@@ -59,13 +59,11 @@ class App extends React.Component {
             <Navitem><Link to="/cargliwice/inesis"><div>Inesis</div></Link></Navitem>
             <Navitem><Link to="/cargliwice/quechua"><div>Quechua</div></Link></Navitem>
             <Navitem><Link to="/cargliwice/hs"><div>HS</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/geologic"><div>Geologic</div></Link></Navitem>
+            <Navitem><Link to="/cargliwice/newfeel"><div>Newfeel</div></Link></Navitem>
         </Navbar>
         
           <LeftDrawer>
               <ul className={classes.sidedrawer}>
-                  {/* <Link to="/cargliwice"><Navitem>Strona główna</Navitem></Link>
-                  <Link to="/cargliwice/hr"><Navitem>Kadry</Navitem></Link> */}
                   <Link to="/cargliwice"><Navitem>Strona główna</Navitem></Link>
                   <Link to="/cargliwice"><Navitem>Kadry</Navitem></Link>
                   
@@ -106,7 +104,7 @@ class App extends React.Component {
               <Route path="/cargliwice/subea"><Subea /></Route>
               <Route path="/cargliwice/kalenji"><Kalenji /></Route>
               <Route path="/cargliwice/domyos"><Domyos /></Route>
-              <Route path="/cargliwice/geologic"><Geologic /></Route>
+              <Route path="/cargliwice/newfeel"><Newfeel /></Route>
 
               <Route path="/cargliwice/dzialszkolen"><DzialSzkolen /></Route>
               
@@ -125,5 +123,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-/* test gita */

@@ -1,4 +1,4 @@
-import { OBS, mail, planq, logbi, eDec, kartaSynchronizacji, planTransportowy } from './CommonLinks'
+import { kalkulatorLidera, OBS, mail, planq, logbi, eDec, kartaSynchronizacji, planTransportowy } from './CommonLinks'
 
 let navOneContent = [
     {
@@ -40,19 +40,24 @@ let navTwoContent = [
         class: "itemC"
     },
     {
-        url: "",
-        displayText: "Raport Lidera (brak linka)",
+        url: "https://docs.google.com/spreadsheets/d/1aFB5yxkRT1qCE12gnb81tnMO0iQTzWBAxxC7-zo71BU/edit#gid=75958218",
+        displayText: "Raport Lidera",
         class: "itemC"
     },
     {
         url: "https://drive.google.com/drive/folders/1tistnhFm865a8TW-niRNjDwmlBX6iBpv",
         displayText: "Plik rozbieżności działowych",
-        class: "itemC"
+        class: "itemD"
     },
     {
-        url: ".",
-        displayText: "OBS tygodniowy (brak linka)",
-        class: "itemC"
+        url: "https://docs.google.com/spreadsheets/d/16rXak-8hs7jccarpzyM8CGWUdFYlBO4DLjPbYOdyKJs/edit?ts=603bd419#gid=821904007",
+        displayText: "OBS tygodniowy",
+        class: "itemD"
+    },
+    {
+        url: kalkulatorLidera,
+        displayText: "Kalkulator Lidera",
+        class: "itemD"
     },
 ]
 
