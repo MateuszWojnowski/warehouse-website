@@ -1,5 +1,5 @@
 let eDec = "https://decathlon.hcmdeck.com/protected/home"
-let OBS = "https://docs.google.com/spreadsheets/d/1JhFowYf6fHnxPmQjFe5-Cf8_HM-NN0UyrY23eVaYnhs"
+let OBS = "https://docs.google.com/spreadsheets/d/1r6KG8OjJVeiTkWwOZBfRjKKORYUrORXLyPZR_VgqcPY/edit?ts=608c256f#gid=365144502"
 let mail = "http://mail.oxylane.com/"
 let planq = "https://decathlon.wtms-one.pl/"
 let logbi = "https://live.decathlon.net/dashboard/monitor5/w058"

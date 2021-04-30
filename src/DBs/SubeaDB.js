@@ -40,7 +40,7 @@ let navTwoContent = [
         class: "itemC"
     },
     {
-        url: "https://docs.google.com/spreadsheets/d/1aFB5yxkRT1qCE12gnb81tnMO0iQTzWBAxxC7-zo71BU/edit#gid=75958218",
+        url: "https://docs.google.com/spreadsheets/d/1_rucJ0Cwm3U_oki6DryYy2qSDk3ejn7CHgRcBsNRDbo/edit?ts=608c22c7#gid=1587553886",
         displayText: "Raport Lidera",
         class: "itemC"
     },
