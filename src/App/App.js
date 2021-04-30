@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Switch, Route, Link, NavLink, Redirect } from 
 
 import classes from './App.module.css';
 
-import Ecomm from '../Działy/Ecomm/Ecomm';
-import Rampa from '../Działy/Rampa/Rampa'
-import Kalenji from '../Działy/Kalenji/Kalenji'
-import Domyos from '../Działy/Domyos/Domyos'
-import Subea from '../Działy/Subea/Subea'
-import Inesis from '../Działy/Inesis/Inesis'
-import Quechua from '../Działy/Quechua/Quechua'
-import HS from '../Działy/HS/HS'
-import Newfeel from '../Działy/Newfeel/Newfeel'
+import Ecomm from '../Dzialy/Ecomm/Ecomm';
+import Rampa from '../Dzialy/Rampa/Rampa'
+import Kalenji from '../Dzialy/Kalenji/Kalenji'
+import Domyos from '../Dzialy/Domyos/Domyos'
+import Subea from '../Dzialy/Subea/Subea'
+import Inesis from '../Dzialy/Inesis/Inesis'
+import Quechua from '../Dzialy/Quechua/Quechua'
+import HS from '../Dzialy/HS/HS'
+import Newfeel from '../Dzialy/Newfeel/Newfeel'
 
 import Banner from '../Banner/Banner'
 import RightDrawer from '../RightDrawer/RightDrawer'
@@ -23,12 +23,12 @@ import Contact from '../Contact/Contact'
 import HR from '../HR/HR'
 import DzialSzkolen from '../DzialSzkolen/DzialSzkolen'
 
-import LiderzyMagazynu from '../NaszZespół/LiderzyMagazynu/LiderzyMagazynu'
-import Administratorzy from '../NaszZespół/Administratorzy/Administratorzy'
-import Recepcja from '../NaszZespół/Recepcja/Recepcja'
-import Kadry from '../NaszZespół/Kadry/Kadry'
-import Szkoleniowcy from '../NaszZespół/Szkoleniowcy/Szkoleniowcy'
-import DzialIt from '../NaszZespół/DzialIt/DzialIt'
+import LiderzyMagazynu from '../NaszZespol/LiderzyMagazynu/LiderzyMagazynu'
+import Administratorzy from '../NaszZespol/Administratorzy/Administratorzy'
+import Recepcja from '../NaszZespol/Recepcja/Recepcja'
+import Kadry from '../NaszZespol/Kadry/Kadry'
+import Szkoleniowcy from '../NaszZespol/Szkoleniowcy/Szkoleniowcy'
+import DzialIt from '../NaszZespol/DzialIt/DzialIt'
 
 
 
