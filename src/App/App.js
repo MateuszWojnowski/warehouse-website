@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link, NavLink, Redirect } from 
 
 import classes from './App.module.css';
 
+import MainPage from '../MainPage/MainPage';
 import Ecomm from '../Dzialy/Ecomm/Ecomm';
 import Rampa from '../Dzialy/Rampa/Rampa'
 import Kalenji from '../Dzialy/Kalenji/Kalenji'
@@ -51,20 +52,20 @@ class App extends React.Component {
         
         <Router>
         <Navbar>
-            <Navitem><Link to="/cargliwice/ecomm"><div>Ecomm</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/rampa"><div>Rampa</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/kalenji"><div>Kalenji</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/domyos"><div>Domyos</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/subea"><div>Subea</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/inesis"><div>Inesis</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/quechua"><div>Quechua</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/hs"><div>HS</div></Link></Navitem>
-            <Navitem><Link to="/cargliwice/newfeel"><div>Newfeel</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/ecomm"><div>Ecomm</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/rampa"><div>Rampa</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/kalenji"><div>Kalenji</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/domyos"><div>Domyos</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/subea"><div>Subea</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/inesis"><div>Inesis</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/quechua"><div>Quechua</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/hs"><div>HS</div></Link></Navitem>
+        <Navitem><Link to="/cargliwice/newfeel"><div>Newfeel</div></Link></Navitem>
         </Navbar>
         
           <LeftDrawer>
               <ul className={classes.sidedrawer}>
-                  <Link to="/cargliwice"><Navitem>Strona główna</Navitem></Link>
+                  <Link to="/cargliwice/mainpage" ><Navitem><div className={classes.MainPage}>Strona główna</div></Navitem></Link>
                   <Link to="/cargliwice"><Navitem>Kadry</Navitem></Link>
                   
                   <div onClick={this.toggleHidden} className={classes.expand}><Navitem>Nasz zespół</Navitem></div>
@@ -94,6 +95,8 @@ class App extends React.Component {
         
           <Switch>
             <div className={classes.renderWindow}>
+              <Route path="/cargliwice/"><Redirect to={"/cargliwice/mainpage"}/></Route>
+              <Route path="/cargliwice/mainpage"><MainPage /></Route>
               <Route path="/cargliwice/hr"><HR /></Route>
               <Route path="/cargliwice/contact"><Contact/></Route>
               <Route path="/cargliwice/ecomm"><Ecomm /><RightDrawer /></Route>
@@ -116,6 +119,7 @@ class App extends React.Component {
               <Route path="/cargliwice/zespol/dzialit"><DzialIt /></Route>              
             </div>
           </Switch>
+
         </Router>
       </div>
     );    

@@ -11,6 +11,7 @@
 
 .sidedrawer{
     width: 100%;
+    
 }
 
 .hiddenContent{
@@ -23,20 +24,34 @@
     }
 }
 
+
 .renderWindow {
     display: flex;
     overflow: auto;
-    overflow-y: hidden;
+    
 
     position: relative;
     left: 15vw;
     top: 25vh;
 
-    width: 59vw;
-    height: 77vh;
+    width: 100%;
+    
+    
+
+    /*width: 59vw;
+    height: 77vh;*/
+    /*poprzednie wartosci ustawione przez Wojtka*/
+    
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.MainPage
+{
+    font-weight: 600;
+    font-size: 30px;
+    color: red;
 }

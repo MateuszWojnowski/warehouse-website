@@ -1,0 +1,33 @@
+.MainPage
+{
+    width: 75%;
+    text-align: center;
+    margin-left: 50px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+.title
+{
+    font-size: 50px;
+    margin: 40px;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contentItem
+{
+    margin: 20px;
+    width: 75%;
+    align-self: center;
+}
+.contentItemTitle
+{
+font-size: 40px;
+}
+.contentItemContent
+{
+    font-size: 30px;
+}
