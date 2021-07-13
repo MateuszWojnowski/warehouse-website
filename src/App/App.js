@@ -64,19 +64,12 @@ class App extends React.Component {
         </Navbar>
         
           <LeftDrawer>
+          <Link to="/cargliwice/mainpage" ><Navitem><div className={classes.MainPage}>Strona główna</div></Navitem></Link>
               <ul className={classes.sidedrawer}>
-                  <Link to="/cargliwice/mainpage" ><Navitem><div className={classes.MainPage}>Strona główna</div></Navitem></Link>
-                  <Link to="/cargliwice"><Navitem>Kadry</Navitem></Link>
-                  
+                  {/*<Link to="/cargliwice"><Navitem>Kadry</Navitem></Link>               
                   <div onClick={this.toggleHidden} className={classes.expand}><Navitem>Nasz zespół</Navitem></div>
                   {this.state.hide ? "" :
                   <ul className={classes.hiddenContent}>
-                      {/* <Link to="/cargliwice/zespol/liderzymagazynu"><Navitem>Liderzy Magazynu</Navitem></Link>
-                      <Link to="/cargliwice/zespol/administratorzy"><Navitem>Administratorzy</Navitem></Link>
-                      <Link to="/cargliwice/zespol/recepcja"><Navitem>Recepcja</Navitem></Link>
-                      <Link to="/cargliwice/zespol/kadry"><Navitem>Kadry</Navitem></Link>
-                      <Link to="/cargliwice/zespol/szkoleniowcy"><Navitem>Szkoleniowcy</Navitem></Link>
-                      <Link to="/cargliwice/zespol/dzialit"><Navitem>Dział IT</Navitem></Link> */}
                       <Link to="/cargliwice"><Navitem>Liderzy Magazynu</Navitem></Link>
                       <Link to="/cargliwice"><Navitem>Administratorzy</Navitem></Link>
                       <Link to="/cargliwice"><Navitem>Recepcja</Navitem></Link>
@@ -85,16 +78,19 @@ class App extends React.Component {
                       <Link to="/cargliwice"><Navitem>Dział IT</Navitem></Link>
                   </ul>
                   }
-
-                  <Link to="/cargliwice/dzialszkolen"><Navitem>Dział Szkoleń</Navitem></Link>
-                  <Link to="/cargliwice/contact"><Navitem>Kontakt</Navitem></Link>
+                <Link to="/cargliwice/dzialszkolen"><Navitem>Dział Szkoleń</Navitem></Link>*/}
+                  
                   <br/>
+                  <Link to="https://www.mail.oxylane.com/" ><Navitem>Poczta</Navitem></Link>
+                  <Link to="https://www.deathlon.wtms-one.pl/" ><Navitem>Planq</Navitem></Link>
+                  <Link to="/cargliwice/contact"><Navitem>Kontakt</Navitem></Link>
                   <Link to={{ pathname: "https://docs.google.com/forms/d/e/1FAIpQLSeGGU5ap9CimgFM0RIuKeB_EhOozMDuEIypnfYPJhUques5eQ/viewform?gxids=7628" }} target="_blank"><Navitem>Zgłoś usterkę IT</Navitem></Link>
               </ul>
           </LeftDrawer>
         
           <Switch>
             <div className={classes.renderWindow}>
+              <Route path="/"><Redirect to={"/cargliwice/mainpage"}/></Route>
               <Route path="/cargliwice/"><Redirect to={"/cargliwice/mainpage"}/></Route>
               <Route path="/cargliwice/mainpage"><MainPage /></Route>
               <Route path="/cargliwice/hr"><HR /></Route>
