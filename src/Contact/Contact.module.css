@@ -4,20 +4,32 @@
     flex-direction: row;
 }
 .gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height: 100%
-}
-.mapContainer {
-    position: relative;
     
-    width: 100%;
+    background:none!important;
+    height: 100%;
+    
+    width: 40%;
 }
 .numbers {
-    width: 100%;
+    width: 950px;
     height: 75vh;
 }
-
 .map {
     height: 75vh;
+    width: 100%
+}
+@media (max-width: 1600px) {
+    .gmap_canvas {
+        width: 30%;
+    }
+}
+@media (max-width: 1400px) {
+    .gmap_canvas {
+        width: 20%;
+    }
+}
+@media (max-width: 1160px) {
+    .gmap_canvas {
+        width: 0%;
+    }
 }
