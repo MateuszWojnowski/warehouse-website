@@ -55,6 +55,7 @@ a {
 {
     font-weight: 600;
     font-size: 33px;
+    width: 100%;
 }
 
 @media (max-width: 1500px) {

@@ -3,7 +3,7 @@ import React from 'react';
 
 let MainPage = (props) => (
     <div className={classes.MainPage}>
-        <div className={classes.title}>Aktualności</div>
+        {/*<div className={classes.title}>Aktualności</div>
         <div className={classes.content}>
             
             <div className={classes.contentItem}>
@@ -28,7 +28,16 @@ let MainPage = (props) => (
                 a imperdiet lectus imperdiet. Sed tempus lacus ac sapien sodales sodales. Morbi erat est, dapibus a facilisis ac, pharetra quis nisl.</div>
             </div>
 
-        </div>
+        </div>*/}
+        {/* ^ to jest schemat przykladowych aktualnosci jezeli takie sie kiedys pojawia*/}
+        <h1>
+            Witaj na platformie magazynowej Decathlon!
+        </h1>
+        <h2>
+            Na tej podstronie znajdziesz wszystkie najważniejsze informacje i aktualności, jeżeli w przyszłości takie się pojawią.
+        </h2>
+        {/*<img className={classes.obrazek} src='./media/images/obrazek.jpg' alt="obrazek"></img>*/}
+        <img className={classes.obrazek} src='obrazek.jpg' alt="obrazek"></img>
     </div>
 );
 
