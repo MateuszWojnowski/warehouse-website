@@ -60,7 +60,7 @@ class App extends React.Component {
         <Navitem><Link to="/cargliwice/inesis"><div>Inesis</div></Link></Navitem>
         <Navitem><Link to="/cargliwice/quechua"><div>Quechua</div></Link></Navitem>
         <Navitem><Link to="/cargliwice/hs"><div>HS</div></Link></Navitem>
-        <Navitem><Link to="/cargliwice/newfeel"><div>Newfeel</div></Link></Navitem>
+        {/*<Navitem><Link to="/cargliwice/newfeel"><div>Newfeel</div></Link></Navitem>*/}
         </Navbar>
         
           <LeftDrawer>
@@ -105,7 +105,7 @@ class App extends React.Component {
               <Route path="/cargliwice/subea"><Subea /></Route>
               <Route path="/cargliwice/kalenji"><Kalenji /></Route>
               <Route path="/cargliwice/domyos"><Domyos /></Route>
-              <Route path="/cargliwice/newfeel"><Newfeel /></Route>
+              {/*<Route path="/cargliwice/newfeel"><Newfeel /></Route>*/}
 
               <Route path="/cargliwice/dzialszkolen"><DzialSzkolen /></Route>
               
