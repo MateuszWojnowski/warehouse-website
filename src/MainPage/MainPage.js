@@ -36,8 +36,8 @@ let MainPage = (props) => (
         <h2>
             Na tej podstronie znajdziesz wszystkie najważniejsze informacje i aktualności, jeżeli w przyszłości takie się pojawią.
         </h2>
-        {/*<img className={classes.obrazek} src='./media/images/obrazek.jpg' alt="obrazek"></img>*/}
-        <img className={classes.obrazek} src='obrazek.jpg' alt="obrazek"></img>
+        <img className={classes.obrazek} src='./media/images/obrazek.png' alt="obrazek"></img>
+        
     </div>
 );
 
