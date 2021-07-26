@@ -6,61 +6,30 @@
 }
 
 .navitem:hover {
-    background: rgb(120,120,120);
+    background: rgb(120, 120, 120);
 }
 
-.sidedrawer{
-    width: 100%;
-    
-    
-}
-
-.hiddenContent{
+.hiddenContent {
     font-size: 1.1rem;
 }
 
 @media (max-width: 1300px) {
     .hiddenContent {
-      font-size: 0.8rem;
+        font-size: 0.8rem;
     }
 }
-
 
 .renderWindow {
     display: flex;
     overflow: auto;
-    
-
     position: relative;
     left: 15vw;
     top: 25vh;
-
     width: 100%;
     height: 100%;
-    
-    
-
-    /*width: 59vw;
-    height: 77vh;*/
-    /*poprzednie wartosci ustawione przez Wojtka*/
-    
 }
 
 a {
     text-decoration: none;
     color: white;
-}
-
-.MainPage
-{
-    font-weight: 600;
-    font-size: 33px;
-    width: 100%;
-}
-
-@media (max-width: 1500px) {
-    .MainPage {
-      font-size: 27px;
-    }
-    
 }

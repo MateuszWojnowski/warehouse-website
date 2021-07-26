@@ -5,21 +5,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     position: fixed;
     bottom: 0;
-
-    background: rgb(80,80,80);
+    background: rgb(80, 80, 80);
     color: lightgray;
-
     z-index: 10;
-
     font-size: 1.7rem;
+}
+
+.sidedrawer {
+    width: 100%;
+}
+
+.MainPage {
+    font-weight: 600;
+    font-size: 33px;
+    width: 100%;
 }
 
 @media (max-width: 1500px) {
     .leftdrawer {
-      font-size: 1.0rem;
+        font-size: 1.0rem;
+    }
+    .MainPage {
+        font-size: 27px;
     }
 }
-

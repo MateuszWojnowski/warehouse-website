@@ -2,9 +2,6 @@ import React from 'react';
 
 import classes from './Contact.module.css'
 
-let height = window.innerHeight;
-let width = window.innerWidth;
-
 let Contact = () => (
     <div className={classes.contactContent}>
         <iframe className={classes.numbers} src="https://docs.google.com/spreadsheets/d/1jZVyzB_w_wDRFTsSYutkv1WtAtafJ32FZewkO49LD2M/edit#gid=0" />
