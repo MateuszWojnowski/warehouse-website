@@ -14,6 +14,7 @@ let LeftDrawer = (props) => (
                   <Link to={{ pathname: "https://decathlon.hcmdeck.com/protected/home" }} target="_blank"><Navitem>E-dec</Navitem></Link>
                   <Link to="/cargliwice/contact"><Navitem>Kontakt</Navitem></Link>
                   <Link to={{ pathname: "https://docs.google.com/forms/d/e/1FAIpQLSeGGU5ap9CimgFM0RIuKeB_EhOozMDuEIypnfYPJhUques5eQ/viewform?gxids=7628" }} target="_blank"><Navitem>Zgłoś usterkę IT</Navitem></Link>
+                  <Link to="/cargliwice/edit"><Navitem>Edycja</Navitem></Link>
               </ul>
     </div>
 );

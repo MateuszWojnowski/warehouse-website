@@ -30,12 +30,12 @@ let MainPage = (props) => (
 
         </div>*/}
         {/* ^ to jest schemat przykladowych aktualnosci jezeli takie sie kiedys pojawia*/}
-        <h1>
+        <div className={classes.h1}>
             Witaj na platformie magazynowej Decathlon!
-        </h1>
-        <h2>
+        </div>
+        <div className={classes.h2}>
             Na tej podstronie znajdziesz wszystkie najważniejsze informacje i aktualności, jeżeli w przyszłości takie się pojawią.
-        </h2>
+        </div>
         <img className={classes.obrazek} src='./media/images/obrazek.png' alt="obrazek"></img>
         
     </div>

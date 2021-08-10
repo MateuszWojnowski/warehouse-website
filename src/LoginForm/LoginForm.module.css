@@ -1,0 +1,55 @@
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #15172b;
+    background-color: white;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px;
+  width: 75%;
+  color: white;
+}
+
+.h1Login {
+    font-size: 50px;
+    font-weight:900;
+    margin-top: 30px;
+    color: white;
+    color: #08d;
+}
+input {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 12px;
+  border: 1;
+  box-sizing: border-box;
+  color: black;
+  
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+}
+.buttonLogin {
+    background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 300px;
+}
+.buttonLogin:hover {
+    background-color: rgb(29, 168, 248);
+}
+
+.input:focus::placeholder {
+    color: transparent;
+  }
+  .errorInfo {
+    color: red;
+  }

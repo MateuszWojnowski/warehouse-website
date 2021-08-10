@@ -17,6 +17,7 @@ import RightDrawer from '../RightDrawer/RightDrawer'
 import LeftDrawer from '../LeftDrawer/LeftDrawer';
 import Navbar from '../Navbar/Navbar';
 import Contact from '../Contact/Contact'
+import LoginForm from '../LoginForm/LoginForm'
 
 class App extends React.Component {
   constructor(props) {
@@ -43,6 +44,7 @@ class App extends React.Component {
             <div className={classes.renderWindow}>
               <Route path="/"><Redirect to={"/cargliwice/ecomm"} /></Route>
               <Route path="/cargliwice/"><Redirect to={"/cargliwice/ecomm"} /></Route>
+              <Route path="/cargliwice/edit"><LoginForm /></Route>
               <Route path="/cargliwice/mainpage"><MainPage /></Route>
               <Route path="/cargliwice/contact"><Contact /></Route>
               <Route path="/cargliwice/ecomm"><Ecomm /><RightDrawer /></Route>
