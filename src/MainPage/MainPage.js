@@ -1,4 +1,5 @@
 import classes from './MainPage.module.css';
+import { BrowserRouter as Router, Switch, Route, Link, NavLink, Redirect } from 'react-router-dom';
 import React from 'react';
 
 let MainPage = (props) => (
@@ -30,14 +31,29 @@ let MainPage = (props) => (
 
         </div>*/}
         {/* ^ to jest schemat przykladowych aktualnosci jezeli takie sie kiedys pojawia*/}
-        <div className={classes.h1}>
+
+
+        {/*<div className={classes.h1}>
             Witaj na platformie magazynowej Decathlon!
         </div>
         <div className={classes.h2}>
             Na tej podstronie znajdziesz wszystkie najważniejsze informacje i aktualności, jeżeli w przyszłości takie się pojawią.
         </div>
-        <img className={classes.obrazek} src='./media/images/obrazek.png' alt="obrazek"></img>
-        
+        <img className={classes.obrazek} src='./media/images/obrazek.png' alt="obrazek"></img>*/}
+        {/* ^ to jest to co bylo, zanim nie bylo zadnych aktualnosci*/}
+
+        <br />
+        <br />
+        <div>
+            "Stara" strona magazynu (informacje o covid):
+            <Link to={{ pathname: "https://sites.google.com/decathlon.com/cargliwice/" }} target="_blank"><div className={classes.t}>https://sites.google.com/decathlon.com/cargliwice/</div></Link>
+        </div>
+        <br />
+        <div>
+            Nowsza strona magazynu (aktualności):
+            <Link to={{ pathname: "https://sites.google.com/decathlon.com/magazyny/aktualno%C5%9Bci" }} target="_blank"><div className={classes.t}>https://sites.google.com/decathlon.com/magazyny/aktualno%C5%9Bci</div></Link>
+        </div>
+
     </div>
 );
 

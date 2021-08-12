@@ -1,4 +1,4 @@
-.MainPage
+/*.MainPage
 {
     width: 75%;
     text-align: center;
@@ -43,5 +43,15 @@ font-size: 40px;
 
 .obrazek {
     margin-top: 50px;
+    
+}*/
+
+.MainPage {
+    font-size: 30px;
+}
+
+.t {
+    color: red;
+    font-weight:600;
     
 }

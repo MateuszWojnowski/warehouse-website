@@ -25,12 +25,15 @@ class LoginForm extends React.Component {
 
     handleSubmitClick = event => {
         event.preventDefault();
-        if (this.state.login == "login" && this.state.password == "password") {
+        if (this.state.login == "log" && this.state.password == "log") {
             console.log("correct");
-            return (
-                <MainPage />
-                
-            );
+            
+                return (
+                    <MainPage />
+                    
+                );
+            
+            
         } else {
             this.setState({errorInfo: "Niepoprawny login lub hasło"});
         }

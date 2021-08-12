@@ -42,8 +42,8 @@ class App extends React.Component {
 
           <Switch>
             <div className={classes.renderWindow}>
-              <Route path="/"><Redirect to={"/cargliwice/ecomm"} /></Route>
-              <Route path="/cargliwice/"><Redirect to={"/cargliwice/ecomm"} /></Route>
+              <Route path="/"><Redirect to={"/cargliwice/mainpage"} /></Route>
+              <Route path="/cargliwice/"><Redirect to={"/cargliwice/mainpage"} /></Route>
               <Route path="/cargliwice/edit"><LoginForm /></Route>
               <Route path="/cargliwice/mainpage"><MainPage /></Route>
               <Route path="/cargliwice/contact"><Contact /></Route>
