@@ -26,6 +26,9 @@ class App extends React.Component {
       hide: true
     }
   }
+
+
+
   toggleHidden = () => {
     this.setState({ hide: !this.state.hide })
   }
